@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tes-layouting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nama">Abdylla Adhiyasa Nugroho</string>
+    <string name="id">Kudus, Indonesia</string>
+    <string name="instagram">\@abdylla_adhiyasa</string>
+</resources>
