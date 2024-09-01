@@ -28,10 +28,8 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        goToFrag(ProfileFragment())
-        binding.btnFrag1.setOnClickListener {
-            goToFrag(FragmentInput())
-        }
+        goToFrag(FragmentCount())
+
         binding.btnFrag2.setOnClickListener {
             goToFrag(FragmentCount())
         }
