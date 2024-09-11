@@ -56,32 +56,6 @@ class FragmentCount : Fragment() {
     override fun onResume() {
         super.onResume()
         loadNamaPlayer()
-//        if (player1skor == 21 || player2skor == 21){
-//            val winner = when {
-//                player1skor > player2skor -> "Player 1"
-//                player2skor > player1skor -> "Player 2"
-//                else -> "No one" // Case when both have the same score, but the score is >= 21
-//            }
-//            val builder = AlertDialog.Builder(requireContext())
-//            builder.setTitle("Pertandingan selesai")
-//            builder.setMessage(" $winner Menang. Ingin memulai ulang dari awal?")
-//            builder.setPositiveButton("ya"){
-//                    dialog, which ->
-//                dialog.dismiss()
-//            }
-//            builder.show()
-//        } else{
-//            binding.count1.setOnClickListener {
-//                player1skor++
-//                binding.count1.text = player1skor.toString()
-//            }
-//            binding.count2.setOnClickListener {
-//                player2skor++
-//                binding.count2.text = player2skor.toString()
-//
-//            }
-//        }
-//
         }
 
 

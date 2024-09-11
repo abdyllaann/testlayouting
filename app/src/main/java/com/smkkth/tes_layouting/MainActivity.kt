@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
+        super.onBackPressed()
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Peringatan")
         builder.setMessage("Ingin Keluar aplikasi?")
